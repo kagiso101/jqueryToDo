@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(120deg,#be17e8,#a8f5ff);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.taskInput {
+
+    text-align: center;
+    width: 100%;
+    border: none;
+    color: #000;
+    border-bottom: 2px,solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+
+    
+}
+
+h3{
+    float: left;
+}
+
+.task{
+    text-align: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.task i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.done .task{
+    background: rgba(50, 40, 50, 0.5);
+    color: #fff;
+}
